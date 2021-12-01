@@ -9,7 +9,7 @@ from sys import getsizeof
 
 PATIENTS = [101, 106, 108, 109, 112, 114, 115, 116, 118, 119, 122, 124, 201, 203, 205, 207, 208, 209, 215, 220, 223, 230, 100, 103, 105, 111, 113, 117, 121, 123, 200, 202, 210, 212, 213, 214, 219, 221, 222, 228, 231, 232, 233, 234]
 
-dataset_dir = './physionet.org/files/mitdb/1.0.0'
+dataset_dir = '../physionet.org/files/mitdb/1.0.0'
 
 def check_args(args):
     patient = args.patient

@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import scipy.signal
 import scipy.fftpack
 
-dataset_dir = './physionet.org/files/mitdb/1.0.0'
+dataset_dir = '../physionet.org/files/mitdb/1.0.0'
 
 def plot_segment(sig, r_peaks, types, index, n_segments=5):
     r = r_peaks[index]
